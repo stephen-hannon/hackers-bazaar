@@ -1,1 +1,6 @@
 theme: jekyll-theme-hacker
+title: Hackers in the Bazaar
+description: Blog for Spring 2021
+author: Stephen Hannon
+plugins:
+  - jekyll-feed
