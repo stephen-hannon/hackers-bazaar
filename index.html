@@ -1,0 +1,15 @@
+---
+layout: default
+title: Hackers in the Bazaar blog
+---
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">
+        <strong>{{ post.title }}</strong>
+        (<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>)
+      </a>
+    </li>
+  {% endfor %}
+</ul>
